@@ -1,9 +1,33 @@
 # **Nadejda Goncharik**
-* (Linkedin) [https://www.linkedin.com/in/nadezhda-goncharik-116356224/]
-* phone *+375295058717*
+##   ***front-End Developer***
+### **Contacts:**
+* [Linkedin](https://www.linkedin.com/in/nadezhda-goncharik-116356224/)
+* phone: *+375295058717*
 * email: Nadin_2006_87@mail.ru
-## **About me:**
+* skype: Nadejda Goncharik
+### **About me:**
 
-I used to work as an accountant until last year. And I wanted to change my life. So I decided to try myself in IT and began to learn different areas in this sphere. I have completed courses in manual testing and now I am starting this frontend course. I'm very excited about it. 
-I like new challenges, that made me want to learn more and more about this sphere and improve my skills every day. My objective is to excel in a challenging and innovative work environment and aim to exercise my full potential. 
-My goal is to succeed in Front End. I want to be a popular and competitive specialist in the job market. I consider myself a valuable employee, because I always go to my goal, hardworking and ready to help. My English level is Pre-Intermediate.
+I am communication, helpful, attention to details person with a great desire to learn new things and master new tasks. I wish will be Front-end Developer and help companies to have their own business card - the site and to attract new customers and promote their products. 
+### **Skills:**
++ GIT
++ HTML
++ CSS
++ VisualCode
+### **EXAMPLE OF CODE:**
+
+    function cake(x, y){
+let a = y.split("");
+let res = 0; 
+  for (i in a)
+  { res += i% 2 == 0? a[i].charCodeAt(0) : a[i].charCodeAt(0) - 96;
+  }
+  return res > x * 0.7? 'Fire!': 'That was close!'; }
+
+  **Education:**
+  - Rsschool, Front-End/JavaScript, now
+  - A1QA, intership, QA engineer, 2022
+  - IT Academy (Software Testing), 2021
+  - BSEU (economist), 2012
+
+  **English:**
+  Pre-intermediate
