@@ -29,5 +29,8 @@ let res = 0;
   - IT Academy (Software Testing), 2021
   - BSEU (economist), 2012
 
+  **My project:**
+  [cv](https://NadejdaGoncharik.github.io/rsschool-cv/cv)
+
   **English:**
   Pre-intermediate
