@@ -2,26 +2,41 @@ html {
   scroll-behavior: smooth; 
 }
 
+.portrait-name-job-center {  
+  align-items: center;
+  text-align: center;  
+}
+
+.portrait {
+  border-radius: 50%;
+}
+
 .body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: bold, Verdana, sans-serif;
+  font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
-  color: #4d2323;
+  color: black;  
 }
 
 .header {
   border: 1px solid blue;
+  background: linear-gradient(rgb(4, 4, 8), white, rgb(17, 13, 31));
 } 
 
 .main {
   padding: 10px;
   border: 1px solid blue;
-  background: linear-gradient(rgb(164, 164, 235), white, pink);
+  background: linear-gradient(rgb(164, 164, 235), white, rgb(121, 89, 238));
+}
+
+.footer {
+  padding: 20px;
+  background: linear-gradient(rgb(4, 4, 8), white, rgb(17, 13, 31));
 }
 
 .container {
@@ -35,7 +50,9 @@ html {
 }
 
 .section {
-  width: 50%;
+  width: 100%;
+  font-family: oblique, Verdana, sans-serif;
+  font-size: 24px;
 }
 
 @media (max-width: 768px) {
@@ -45,7 +62,7 @@ html {
 }
 
 .nav {
-  font-size: 24px;
+  font-size: 30px;
   color: black;  
 }
 
@@ -62,6 +79,11 @@ html {
   line-height: 50px;
 } 
 
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+
 .nav-link:hover {
     color: #ec0faa;
   }
@@ -71,9 +93,24 @@ html {
   }
 
 .section-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 5px;
-  color: #829985;
+  color: #0d17a7;
+  border: 2px solid #0d17a7;
+  border-radius: 25px;
+  padding: 0 0 0 20px;
+  background: linear-gradient(rgb(203, 59, 247), white, rgb(247, 173, 240));
+}
+
+.github {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+
+.github > div {
+  padding: 1em;  
 }
