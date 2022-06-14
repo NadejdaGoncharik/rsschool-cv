@@ -2,15 +2,6 @@ html {
   scroll-behavior: smooth; 
 }
 
-.portrait-name-job-center {  
-  align-items: center;
-  text-align: center;  
-}
-
-.portrait {
-  border-radius: 50%;
-}
-
 .body {
   min-height: 100vh;
   display: flex;
@@ -23,20 +14,29 @@ html {
   color: black;  
 }
 
+.portrait-name-job-center {  
+  align-items: center;
+  text-align: center;  
+}
+
+.portrait {
+  border-radius: 50%;
+}
+
 .header {
-  border: 1px solid blue;
-  background: linear-gradient(rgb(4, 4, 8), white, rgb(17, 13, 31));
+  border: 3px solid black;
+  background: linear-gradient(rgb(96, 177, 243), white, rgb(240, 163, 233));
 } 
 
 .main {
   padding: 10px;
-  border: 1px solid blue;
+  border: 3px solid rgb(11, 11, 14);
   background: linear-gradient(rgb(164, 164, 235), white, rgb(121, 89, 238));
 }
 
 .footer {
-  padding: 20px;
-  background: linear-gradient(rgb(4, 4, 8), white, rgb(17, 13, 31));
+  background: linear-gradient(rgb(96, 177, 243), white, rgb(240, 163, 233));
+  border: 3px solid black;
 }
 
 .container {
@@ -45,7 +45,6 @@ html {
 }
 
 .main-container {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -105,12 +104,14 @@ html {
   background: linear-gradient(rgb(203, 59, 247), white, rgb(247, 173, 240));
 }
 
-.github {
+.wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
- 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+  align-items: center; 
 }
 
-.github > div {
+.wrapper > div {
   padding: 1em;  
 }
