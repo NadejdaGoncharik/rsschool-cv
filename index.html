@@ -1,18 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>First page</title>
-    <h1>Моя первая страница</h1>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="./assets/svg/favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-<p>
-    Чтобы поближе познакомиться со мной и с моей деятельностью, можно пройти по ссылке <a href="./about/index.html">Об авторе</a>
-</p>
-<hr>
-<p><strong>FrontEnd</strong> разработчик создает видимую для пользователя часть веб-страницы и его главная задача – точно передать
-    в верстке то, что создал дизайнер, а также реализовать пользовательскую логику.</p>
-<p>&#9752;  &#9759;</p>
-<p>&#127850;Для того, чтобы стать FrontEnd разработчиком, не нужны знания математики. Освоить специальность Вы сможете за
-    3-6 месяцев, в зависимости от того, сколько времени будете уделять теории и кодингу.
-    Наша программа обучения выверена на практике и включает в себя самые необходимые и современные технологии&#127881;</p>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#aducation" class="nav-link">Aducation</a></li>
+                    <li class="nav-item"><a href="#my-project" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">        
+        <section class="portrait-name-job-center">
+            <img src="./assets/img/portret.jpg" class="portrait" alt="Portrait" width="204" height="204">
+            <h1>Nadejda Goncharik</h1>
+            <h3>Front-End Developer</h3>
+        </section>
+        <section class="section" id="contacts-section">
+            <h2 class="section-title" id="contacts">Contacts:</h2>
+            <ul>
+            <li>
+                <img class="link" src="./assets/svg/linkedin.svg" alt="LinkedIn-icon" width="30" height="30"><a href="https://www.linkedin.com/in/nadezhda-goncharik-116356224" target="_blank">Linkedin</a>
+                </li>
+            <li><img src="./assets/svg/discord.png" alt="Phone" width="30" height="30">NadejdaGoncharik</li>
+            <li><img src="./assets/svg/email.svg" alt="Email" width="30" height="30"> E-mail: Nadin_2006_87@mail.ru
+            </li>
+        </ul>
+        </section>
+        <section class="section" id="summery-section">
+            <h2 class="section-title" id="summary">About me:</h2>
+            <p>I am communication, helpful, attention to details person with a great
+                desire to learn new things and master new tasks. I wish will be Front-end Developer and help
+                companies
+                to have their own business card - the site and to attract new customers and promote their products.
+            </p>
+        </section>
+        <section class="section" id="skills-section">
+            <h2 class="section-title" id="skills">Skills:</h2>
+            <ul>
+                <li>GIT</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>VirtualCode</li>
+            </ul>
+        </section>
+        <section class="section" id="code-section">
+            <h2 class="section-title" id="code">Example of code:</h2>
+            <pre>
+                    <code>
+    function cake(x, y){
+    let a = y.split("");
+    let res = 0; 
+    for (i in a)
+    { res += i% 2 == 0? a[i].charCodeAt(0) : a[i].charCodeAt(0) - 96;
+    }
+    return res &gt; x * 0.7? &apos;Fire!&apos;: &apos;That was close!&apos;; }
+                    </code>
+                </pre>
+        </section>
+        <section class="section" id="aducation-section">
+            <h2 class="section-title" id="aducation">Aducation:</h2>
+            <ul>
+                <li>RSschool, Front-End/JavaScript, now</li>
+                <li>A1QA, intership, QA engineer, 2022</li>
+                <li>IT Academy (Software Testing), 2021</li>
+                <li>BSEU (economist), 2012</li>
+            </ul>
+        </section>
+        <section class="section" id="my-project-section">
+            <h2 class="section-title" id="my-project">My project:</h2>
+            <p><a class="link" href="https://NadejdaGoncharik.github.io/rsschool-cv/">CV (follow the link)</a></p>
+        </section>
+        <section class="section" id="english-section">
+            <h2 class="section-title" id="english">English:</h2>
+            <p>Pre-intermediate (A2)</p>
+        </section>
+    </div>    
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="github">
+                    <a href="https://github.com/NadejdaGoncharik" target="_blank"><img src="./assets/svg/github.png"
+                            alt="github_account" class="github" width="30" height="30"></a>
+                </div>
+                <div class="year">
+                    <span>2022</span>
+                </div>
+                <div class="rsschool">
+                    <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rsschool.svg"
+                            alt="rsschool-course" width="80" height="80"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
